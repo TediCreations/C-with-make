@@ -1,11 +1,13 @@
 # Executables
-bin
+*.elf
+*.exe
+*.out
 
 # Object files
-obj
+*.o
+*.obj
 
 # Eclipse
-#TODO: Ignore these but not just yet...
-#proj/eclipse_workspace/.metadata
-#proj/eclipse_workspace/RemoteSystemsTempFiles
+proj/eclipse_workspace/.metadata
+proj/eclipse_workspace/RemoteSystemsTempFiles
 
