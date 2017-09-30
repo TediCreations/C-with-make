@@ -1,4 +1,4 @@
-# C project development using both GNU make and Eclipse IDE
+# C project template using both GNU make and Eclipse IDE
 
 [![Build Status](https://travis-ci.org/TediCreations/C-with-make.svg?branch=master)](https://travis-ci.org/TediCreations/C-with-make)
 
