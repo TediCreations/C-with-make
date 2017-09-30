@@ -31,6 +31,7 @@
 - **bin:**              Output of the executable
 - **conf:**             Configuration files from various tools. e.g: doxygen, cppcheck etc.
 - **doc:**              Documentation. (output of doxygen).
+- **inc:**              Projects header files.
 - **obj:**              Object files during make.
 - **proj:**             Eclipse IDE config files.
 - **src:**              Projects source files.

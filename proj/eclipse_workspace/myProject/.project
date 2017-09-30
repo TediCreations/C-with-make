@@ -30,6 +30,11 @@
 			<locationURI>PARENT-3-PROJECT_LOC/Makefile</locationURI>
 		</link>
 		<link>
+			<name>inc</name>
+			<type>2</type>
+			<locationURI>PARENT-3-PROJECT_LOC/inc</locationURI>
+		</link>
+		<link>
 			<name>src</name>
 			<type>2</type>
 			<locationURI>PARENT-3-PROJECT_LOC/src</locationURI>
