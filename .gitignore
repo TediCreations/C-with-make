@@ -1,0 +1,11 @@
+# Executables
+bin
+
+# Object files
+obj
+
+# Eclipse
+#TODO: Ignore these but not just yet...
+#proj/eclipse_workspace/.metadata
+#proj/eclipse_workspace/RemoteSystemsTempFiles
+
