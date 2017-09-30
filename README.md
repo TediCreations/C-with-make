@@ -40,6 +40,5 @@
 
 # TODO:
 
-- Project is working in GNU/Linux, fix Travis CI errors...
 - Add script to install dependencies in Debian based GNU/Linux distros.
 - Check if debug/run shared files can be omitted.
