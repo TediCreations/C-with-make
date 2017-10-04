@@ -25,6 +25,7 @@
 - **Build tools:**      gcc, make
 - **Documentation:**    doxygen, graphviz
 - **Analysers:**        cppcheck
+- **Tools:**            JLink debugger
 
 ## Folder structure:
 
@@ -32,9 +33,11 @@
 - **conf:**             Configuration files from various tools. e.g: doxygen, cppcheck etc.
 - **doc:**              Documentation. (output of doxygen).
 - **inc:**              Projects header files.
+- **ld:**               Linker script.
 - **obj:**              Object files during make.
 - **proj:**             Eclipse IDE config files.
 - **src:**              Projects source files.
+- **thirdparty:**       Thirdparty dependencies.
 
 ------
 
