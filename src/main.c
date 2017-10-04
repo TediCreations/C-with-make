@@ -1,13 +1,29 @@
-#include "console/console.h"
+#include "led/led.h"
+#include "stm32f0xx.h"
+
+
+//TODO: This is from minimal.
 
 int main( void )
 {
-	console_t cmd = console_build();
-	cmd.puts( "Give input:\n" );
-	char* input = cmd.gets( &cmd );
-	cmd.puts( "You entered: " );
-	cmd.puts( input );
-	cmd.puts( "\n" );
+	SystemCoreClockUpdate();
+
+	led_init();
+	led_off();
+
+
+	//TODO: Remove this
+	__NOP();
+
+	while( 1 )
+	{
+		for( unsigned long int i=0; i<=1000000; i++ )
+		{
+			__NOP();
+		}
+		led_toggle();
+
+	}
 
 	return 0;
 }

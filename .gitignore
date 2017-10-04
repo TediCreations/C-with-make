@@ -7,6 +7,9 @@
 *.o
 *.obj
 
+# Folders
+.dep
+
 # Eclipse
 proj/eclipse_workspace/.metadata
 proj/eclipse_workspace/RemoteSystemsTempFiles
